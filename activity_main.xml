@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitre"
+        android:layout_width="165dp"
+        android:layout_height="36dp"
+        android:text="@string/titre_app"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/textViewCompteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valeur_initiale_compteur"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/buttonDecrementer"
+        android:layout_width="108dp"
+        android:layout_height="42dp"
+        android:text="@string/texte_btn_decrementer"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <Button
+        android:id="@+id/buttonIncrementer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texte_btn_incrementer"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Button
+        android:id="@+id/buttonReinitialiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texte_btn_reinitialiser"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="328dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
