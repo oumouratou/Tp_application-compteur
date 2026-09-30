@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CompteurAndroid</string>
+    <string name="titre_app">Mon compteur</string>
+    <string name="valeur_initiale_compteur">0</string>
+    <string name="texte_btn_incrementer">+</string>
+    <string name="texte_btn_decrementer">-</string>
+    <string name="texte_btn_reinitialiser">Réinitialiser</string>
+    <string name="toast_reinitialisation">Compteur réinitialisé</string>
+</resources>
